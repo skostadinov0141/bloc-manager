@@ -1,0 +1,29 @@
+{
+  "name": "bloc-manager",
+  "version": "1.0.0",
+  "description": "A CLI tool used to easily manage a BLOC pattern in your Vue + Pinia project.",
+  "keywords": [
+    "bloc",
+    "bloc pattern",
+    "vue",
+    "pinia",
+    "typescript"
+  ],
+  "author": "Simeon Kostadinov",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^10.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "bin": {
+    "bloc": "dist/index.js"
+  }
+}
